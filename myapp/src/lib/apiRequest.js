@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-    baseURL : "http://localhost:8000/api",
+    baseURL : "https://dream-home-api-9f0j.onrender.com",
     withCredentials : true,
 });
 
